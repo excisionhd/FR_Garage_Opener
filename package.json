@@ -1,0 +1,13 @@
+{
+    "name": "LPR_Garage_Opener",
+    "version": "1.0.0",
+    "description": "License Plate Recognition For Automated Garage Opening",
+    "author": "Amir Sotoodeh <excisionhd1@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "myq-api": "latest"
+    }
+  }
