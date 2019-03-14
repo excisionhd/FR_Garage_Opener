@@ -2,12 +2,12 @@
 FROM nikolaik/python-nodejs
 
 # Create app directory
-WORKDIR /usr/src/app
-
+WORKDIR /app
+COPY . /app
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY package*.json ./
+COPY package*.json /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r requirements.txt

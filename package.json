@@ -8,6 +8,7 @@
       "start": "node server.js"
     },
     "dependencies": {
-      "myq-api": "latest"
+      "myq-api": "latest",
+      "dotenv": "latest"
     }
   }
