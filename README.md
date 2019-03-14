@@ -4,3 +4,7 @@ Using MyQ Chamberlain API and License Plate Recognition, garage/gate opening tas
 ## Technology:
 1. Node.js
 2. Docker
+3. Python
+    - Tensorflow
+    - OpenCv
+    - Numpy
