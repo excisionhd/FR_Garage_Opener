@@ -1,5 +1,5 @@
 # Automated Recognition Garage Door Opener
-Using MyQ Chamberlain API and Automated Recognition, garage/gate opening task will be automated upon user arrival.
+Using MyQ Chamberlain API and Automated Facial Detection and Recognition, garage/gate opening task will be automated upon user arrival.
 
 ## Technology:
 1. Node.js
